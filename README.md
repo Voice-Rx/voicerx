@@ -1,11 +1,9 @@
-![voicerx-logo-resized](https://github.com/saumyasarkar11/voicerx/assets/76894046/13c48934-a1e0-471e-b761-351e1813244d)
-#### Voice Automated Prescription Generator
-
-### Overview
+![voicerx-logo-resized](https://github.com/saumyasarkar11/voicerx/assets/76894046/4b341e3c-963b-4675-85e5-406ea590f7ea)
+## Overview
 
 VoiceRx is an innovative **voice-activated prescription generator** that leverages advanced natural language processing (NLP) and machine learning technologies. This application aims to streamline the prescription creation process for healthcare professionals by allowing them to generate prescriptions through voice commands.
 
-### Features
+## Features
 
 - **Voice-Activated Prescription Generation:** Utilize the power of voice commands to create accurate and efficient prescriptions.
 - **NLP Processing:** Leverage advanced natural language processing to interpret and understand voice inputs accurately.
