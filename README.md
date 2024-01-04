@@ -1,4 +1,5 @@
-![voicerx-logo-resized](https://github.com/saumyasarkar11/voicerx/assets/76894046/4b341e3c-963b-4675-85e5-406ea590f7ea)
+![voicerx-logo-resized](https://github.com/saumyasarkar11/voicerx/assets/76894046/4b341e3c-963b-4675-85e5-406ea590f7ea)<br><br>
+[![CodeQL](https://github.com/Voice-Rx/voicerx/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Voice-Rx/voicerx/actions/workflows/github-code-scanning/codeql)
 ## Overview
 
 VoiceRx is an innovative **voice-activated prescription generator** that leverages advanced natural language processing (NLP) and machine learning technologies. This application aims to streamline the prescription creation process for healthcare professionals by allowing them to generate prescriptions through voice commands.
