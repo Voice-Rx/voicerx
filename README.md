@@ -20,7 +20,7 @@ VoiceRx is an innovative **voice-activated prescription generator** that leverag
 
 1. Clone the repository: 
 ```
-git clone https://github.com/your-username/voicerx.git
+git clone https://github.com/Voice-Rx/voicerx.git
 ```
 2. Navigate to the project directory:
 ```
