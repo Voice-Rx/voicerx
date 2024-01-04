@@ -1,5 +1,5 @@
 ![voicerx-logo-resized](https://github.com/saumyasarkar11/voicerx/assets/76894046/13c48934-a1e0-471e-b761-351e1813244d)
-# VoiceRx - Voice Automated Prescription Generator
+## Voice Automated Prescription Generator
 
 ### Overview
 
