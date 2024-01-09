@@ -1,11 +1,11 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
 import logoWhite from '../../public/logo_white.png';
-import { MdLogin } from "react-icons/md";
+import { MdOutlineSkipNext  } from "react-icons/md";
 import { FaAws, FaGithub, FaUser } from "react-icons/fa";
 import Link from 'next/link';
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiApachecassandra, SiGraphql, SiMysql, SiRabbitmq, SiTailwindcss } from "react-icons/si";
+import { SiApachecassandra, SiApachekafka, SiGraphql, SiMysql, SiRabbitmq, SiTailwindcss } from "react-icons/si";
 
 
 const Home: NextPage = () => {
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
             <div className='flex justify-start items-center text-white mt-3 text-2xl flex-wrap'>
               <FaAws className='text-3xl mr-9' />
               <TbBrandNextjs className='mr-9' />
-              <SiRabbitmq className='text-xl mr-9' />
+              <SiApachekafka className='mr-9' />
               <SiGraphql className='mr-9' />
               <SiTailwindcss className='mr-9 mt-2 sm:mt-0' />
               <SiApachecassandra className='text-3xl mr-9 mt-2 sm:mt-0' />
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
           {/* </div> */}
           
           <Link href="/login" className='mb-12'>
-            <button type="button" className="text-cyan-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 me-2"><span className="flex justify-between items-center"><p>Proceed to login</p>&nbsp;<MdLogin /></span></button>
+            <button type="button" className="bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 me-2"><span className="flex justify-between items-center"><p>Proceed to Application</p>&nbsp;<MdOutlineSkipNext /></span></button>
           </Link>
           {/* <div className=" mt-10 inset-0 bottom-0 text-xs">&copy; Copyright 2023 VoiceRx - Voice Automated Prescription Generator</div> */}
         </div>

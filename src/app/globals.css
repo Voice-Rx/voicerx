@@ -39,3 +39,10 @@ html {
       transform:translateX(25%);
     }
   }
+
+  .loginBg{
+    background-image: url('../../public/bg1.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
