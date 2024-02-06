@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'VoiceRx - Voice Assisted Prescription Generator',
-  description: 'Voice automated Prescription Generator',
+  title: 'VoiceRx - Voice Powered Prescription Generator',
+  description: 'Voice Powered Prescription Generator',
 }
 
 export default function RootLayout({

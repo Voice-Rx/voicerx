@@ -1,26 +1,36 @@
 import Image from "next/image";
 import Link from "next/link";
-import { MdAccountCircle } from "react-icons/md";
+import { MdSearch, MdAdd } from "react-icons/md";
 
 const InfoCard  = () => {
     return(
-        <div>      
-
-            <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
-                
-                <a href="#">
-                    <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900">Hello, Dr. Saha</h5>
-                </a>
-                <p className="mb-3 font-normal text-gray-500">Go to this step by step guideline process on how to certify for your weekly benefits:</p>
-                <a href="#" className="inline-flex items-center text-blue-600 hover:underline">
-                    See our guideline
-                    <svg className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
-                    </svg>
-                </a>
+        <div className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow sm:max-w-xl md:max-w-full lg:max-w-full">
+            <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900">Welcome Back, Dr. Saha</h5>
+            <p className="mb-3 text-sm text-gray-600">
+                The system is up and running, ready to assist you seamlessly with prescription management. We trust you'll have a highly productive day utilizing our platform.
+            </p>
+            <p className="mb-3 text-sm text-gray-600">
+                For any assistance or inquiries, our dedicated customer care team is at your service.
+            </p>
+            <p className="mb-3 text-sm text-gray-600">                    
+                Thank you for choosing VoiceRx. Wishing you a successful day ahead.
+            </p>
+            <div className="flex justify-start items-start mt-4 gap-x-2 gap-y-2 flex-wrap">
+                <Link href="#">
+                    <button className="bg-gray-900 hover:bg-gray-950 text-white text-xs py-2 px-4 rounded inline-flex items-center">
+                        <MdSearch />
+                        <span className="ml-1">Search Patient History</span>
+                    </button>
+                </Link>
+                <Link href="#">
+                    <button className="bg-teal-900 hover:bg-teal-950 text-white text-xs py-2 px-4 rounded inline-flex items-center">
+                        <MdAdd />
+                        <span className="ml-1">Create Prescription</span>
+                    </button>
+                </Link>
             </div>
-
-        </div>   
+            
+        </div>
     )
 };
 
